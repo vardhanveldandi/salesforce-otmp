@@ -1,1 +1,1 @@
-This folder contains screenshots of Salesforce security used in OTMP.
+This folder contains screenshots of Profiles, Roles, Permission Sets, Sharing Rules, and OWD.
