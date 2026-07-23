@@ -1,1 +1,1 @@
-This folder stores Salesforce metadata and configuration files.
+This folder contains Salesforce custom object metadata.
