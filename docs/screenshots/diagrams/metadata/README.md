@@ -1,1 +1,1 @@
-This folder contains Salesforce custom object metadata.
+This folder contains Salesforce metadata exported from the OTMP project.
