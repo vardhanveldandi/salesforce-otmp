@@ -5,18 +5,14 @@
 Stores trainer information.
 
 ### Fields
+| Field Name | Data Type | Description |
+|------------|-----------|-------------|
+| Trainer Name | Text | Trainer's full name |
+| Trainer Email | Email | Trainer email |
+| Trainer Phone Number | Phone | Trainer phone number |
+| Expertise | Text | Technical expertise |
+| Experience | Picklist | Years of experience |
 
-# Field Name                          # Datatype                      # Description
-
-Trainer Name          -->              Text             -->           Trainer's full name 
-
-Trainer email         -->              Email            -->           Trainer email 
-
-Trainer Phone Number  -->              Phone            -->           Trainer phone number 
-
-Expertise             -->              Text             -->           Technical expertise 
-  
-Experience            -->              Picklist         -->           Years of experience 
 
 ### Relationships
 
