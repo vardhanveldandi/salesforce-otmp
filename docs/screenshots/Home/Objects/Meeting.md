@@ -8,11 +8,15 @@ Stores training meeting/session details.
 
 | Field Name | Data Type | Description |
 |------------|-----------|-------------|
-| Session Name | Text | Name of the session |
-| Date | Date | Session date |
-| Time | Time | Session time |
+| Meeting Name | Text | Name of the Meeting |
+| Meeting Date | Date | Meeting date |
 | Meeting Link | URL | Online meeting URL |
+| Active | Checkbox | Checked or unchecked |
+| Student mail on meeting | Email | Email of student |
+| Trainer | Master-Detailed |This relationship is belongs to Meeting Object.|
+| Batch | Master-Detailed |This relationship is belongs to Meeting Object.|
+
 
 ### Relationships
 
-- Linked to Batch
+- Linked to Batch and Trainer
