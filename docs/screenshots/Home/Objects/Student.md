@@ -12,7 +12,8 @@ Stores information about students enrolled in training programs.
 |  Student Email | Email | Student email address |
 | Phone Number | Phone | Student contact number |
 | Status | Picklist | Active or Inactive |
-
+| Skill Level | Picklist | Basic , competent, Skilled and mastered |
+|  Highest Qualification| Picklist | Graduate , Post graduate, and Diploma |
 
 
 
