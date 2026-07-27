@@ -15,7 +15,8 @@ Stores batch information.
 | Course            | Master Detailed         | This Relationship is belongs to Batch Object. |
 | Trainer           | Lookup                  | This Relationship is belongs to Batch Object. |
 | Status            | Picklist                | Active or Inactive                            |
-
+| Available seats   | Number                  | Available seats in Batch                      |
+| Time Slot         | Picklist                | Time slots of Batch                           |
 
 
 ### Relationships
