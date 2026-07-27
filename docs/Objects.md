@@ -7,7 +7,9 @@ This document describes the custom objects used in the Online Training Managemen
 
 The OTMP project uses custom objects to manage students, trainers, courses, enrollments, payments, and meetings
 
-# Student
+
+
+# Student Object
 
 ## Purpose
 
@@ -30,9 +32,10 @@ Stores information about students enrolled in training programs.
 - One Student can have multiple Enrollments.
 
 
-## Course
 
-# Purpose
+# Course Object
+
+## Purpose
 
 Stores training course details.
 
@@ -55,9 +58,11 @@ Stores training course details.
 
 - One Course can have multiple Batches.
 
-## Batch
 
-### Purpose
+
+# Batch Object
+
+## Purpose
 
 Stores batch information.
 
@@ -84,9 +89,9 @@ Stores batch information.
 
 
 
-## Enrollment
+# Enrollment Object
 
-### Purpose
+## Purpose
 
 Tracks student enrollments.
 
@@ -108,9 +113,11 @@ Tracks student enrollments.
 - Linked to Student
 - Linked to Batch and Course
 
-## Meetings
 
-### Purpose
+
+# Meetings Object
+
+## Purpose
 
 Stores training meeting/session details.
 
@@ -132,9 +139,10 @@ Stores training meeting/session details.
 - Linked to Batch and Trainer
 
 
-## Payment
 
-### Purpose
+# Payment Object
+
+## Purpose
 
 Stores payment details.
 
