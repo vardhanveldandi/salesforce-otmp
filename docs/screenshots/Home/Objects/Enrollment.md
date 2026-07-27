@@ -20,4 +20,4 @@ Tracks student enrollments.
 ### Relationships
 
 - Linked to Student
-- Linked to Batch
+- Linked to Batch and Course
