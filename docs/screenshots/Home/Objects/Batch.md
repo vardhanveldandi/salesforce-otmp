@@ -14,6 +14,8 @@ Stores batch information.
 | Capacity          | Number                  | Maximum number of students                    |
 | Course            | Master Detailed         | This Relationship is belongs to Batch Object. |
 | Trainer           | Lookup                  | This Relationship is belongs to Batch Object. |
+| Status            | Picklist                | Active or Inactive                            |
+
 
 
 ### Relationships
