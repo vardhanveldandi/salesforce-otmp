@@ -12,11 +12,15 @@ Stores payment details.
 | Payment Date | Date | Date of payment |
 | Payment Status | Picklist | Paid, Pending and completed |
 | Payment Amount | Number | Payment amount |
+| Payment Method | Picklist | Upi. Net banking , Debit card and credit card |
 | Transaction ID | Text | Payment transaction reference |
 | Student | Master-Detailed | This relationship is belongs to Payment object |
 | Course | Master-Detailed | This relationship is belongs to Payment object |
 | Batch | Lookup| This relationship is belongs to Payment object |
 | Enrollment | Lookup | This relationship is belongs to Payment object |
+| Pending Amount | Number | Pending amount |
+| Due Date | Date | Due Date of payment |
+| Installement Number | Number | No.of installed numbers |
 
 ### Relationships
 
