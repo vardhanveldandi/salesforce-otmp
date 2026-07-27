@@ -8,11 +8,19 @@ Stores payment details.
 
 | Field Name | Data Type | Description |
 |------------|-----------|-------------|
-| Amount | Currency | Payment amount |
+| Payment Name | Text | Name of the payment  |
 | Payment Date | Date | Date of payment |
-| Status | Picklist | Paid, Pending, Failed |
+| Payment Status | Picklist | Paid, Pending and completed |
+| Payment Amount | Number | Payment amount |
 | Transaction ID | Text | Payment transaction reference |
+| Student | Master-Detailed | This relationship is belongs to Payment object |
+| Course | Master-Detailed | This relationship is belongs to Payment object |
+| Batch | Lookup| This relationship is belongs to Payment object |
+| Enrollment | Lookup | This relationship is belongs to Payment object |
 
 ### Relationships
 
 - Linked to Enrollment
+- Linked to Student
+- Linked to Course
+- Linked to Batch
