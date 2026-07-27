@@ -13,6 +13,10 @@ Stores training course details.
 |            Course Fee                     |            Number               |        Course Fee                    |
 |            Course Duration                |            Picklist             |        Course duration               |    
 |            Difficulty                     |            Picklist             |   Beginner, Intermediate, Advanced   |
+|            Location                    |            Text                 |        Location          |
+|            Platform                |            Picklist             |        Platform of course like Zoom etc..               |    
+|            Course URL                     |            URL             |   Url of platform course   |
+
 
 
 ### Relationships
