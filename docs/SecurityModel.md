@@ -22,14 +22,12 @@ The Online Training Management Platform (OTMP) uses Salesforce security features
 The following roles are configured:
 
 Wipro
-│
-├── Admin
-│   ├── Student 
-│   ├── Trainer
-│          ├── Support
-│
-└── CEO
-
+  |
+Admin - Student, Trainer 
+  |                  |
+  |               Support
+  |
+CEO
 ### Purpose
 
 - **Wipro** – Top-level organizational role.
