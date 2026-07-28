@@ -23,10 +23,12 @@ The following roles are configured:
 
 - Wipro
 - Admin
-    |
-  Student, Trainer
-             |
-           Support
+
+    |- Student
+    |- Trainer
+       
+         |- Support
+  
 - CEO
 
 
