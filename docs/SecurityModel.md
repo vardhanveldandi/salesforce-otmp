@@ -9,22 +9,32 @@ The Online Training Management Platform (OTMP) uses Salesforce security features
 
 | Object | Default Access |
 |--------|----------------|
-| Student | Private |
+| Student | Public, Read/Write |
 | Trainer | Public Read Only |
-| Course | Public Read Only |
-| Batch | Public Read Only |
-| Enrollment | Private |
-| Payment | Private |
+| Course | Private |
+| Batch | Controlled by Parent |
+| Enrollment | Controlled by Parent  |
+| Payment |  Controlled by Parent |
 
 
 ## Role Hierarchy
 
 The following roles are configured:
 
-- System Administrator
-- Student Support
-- Trainer
-- Finance Team
+Wipro
+│
+├── Admin
+│   ├── Student 
+│   ├── Trainer
+│          ├── Support
+│
+└── CEO
+
+### Purpose
+
+- **Wipro** – Top-level organizational role.
+- **Admin** – Manages Salesforce configuration, users, security, and application setup.
+- **CEO** – Executive-level role with access to organizational data.
 
 
 ## Profiles
@@ -32,7 +42,8 @@ The following roles are configured:
 The following profiles are used:
 
 - System Administrator
-- Standard User
+- Trainer Profile
+- Support Profile
 
 
 ## Permission Sets
@@ -52,7 +63,6 @@ Purpose:
 Examples:
 
 - Share Course records with Trainers.
-- Share Enrollment records with Student Support users.
 
 
 
@@ -63,12 +73,10 @@ Sensitive fields are protected.
 Examples:
 
 - Payment Amount
-- Transaction ID
 - Student Personal Information
 
 These fields are visible only to authorized users.
 
----
 
 ## Summary
 
