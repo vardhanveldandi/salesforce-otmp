@@ -21,7 +21,7 @@ The Online Training Management Platform (OTMP) uses Salesforce security features
 
 The following roles are configured:
 
-├── Wipro
+ Wipro
 │
 ├── Admin
 │   ├── Student 
