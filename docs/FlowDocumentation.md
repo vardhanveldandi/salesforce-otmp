@@ -7,60 +7,30 @@ This document describes the Salesforce Flows used in the Online Training Managem
 The flows automate business processes, reduce manual work, and improve data accuracy.
 
 
-# Payment Automation Flow --*
+# Payment - Enrollment Automation Flow 
 
 ## Purpose
 
-Automatically updates the enrollment after a payment is successfully recorded.
-
+Automatically updates the enrollment after a payment is successfully recorded. 
 ## Type
 
 Record-Triggered Flow
 
 ## Trigger
 
-Runs when a Payment record is created or updated.
+Runs when a Payment record is created or updated. 
 
 ## Process
 
 1. Check the payment status.
 2. Verify the payment amount.
 3. Update the related Enrollment record.
-4. Mark the enrollment as Active.
-5. Send a payment confirmation email.
+4. Mark the enrollment as enrolled
+
 
 ## Outcome
 
-- Enrollment becomes Active.
-- Student receives a confirmation email.
-
-
-
-# Enrollment Flow
-
-## Purpose
-
-Automates the student enrollment process.
-
-## Type
-
-Record-Triggered Flow
-
-## Trigger
-
-Runs when an Enrollment record is created.
-
-## Process
-
-1. Validate enrollment details.
-2. Link the Student to the selected Batch.
-3. Update the Batch strength.
-4. Notify the student.
-
-## Outcome
-
-- Enrollment is completed successfully.
-- Batch count is updated.
+- Enrollment becomes Enrolled
 
 
 
