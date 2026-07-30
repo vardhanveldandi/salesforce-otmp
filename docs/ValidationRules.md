@@ -19,7 +19,7 @@ Ensures that the payment amount is greater than zero. Ensures that the Payment A
 
   ## Validation Formula:
 
-  Payment_Amount__c <= 0
+  Payment_Amount__c <= 0 
 
   ## Error Message:
 
@@ -47,7 +47,7 @@ Ensures that the Date of Birth (DOB) entered for a student is a valid date in th
 
    ## Validation Formula:
 
-   Date_of_Birth__c >= TODAY()
+   Date_of_Birth__c >= TODAY() 
 
    ## Error Message:
 
@@ -78,10 +78,10 @@ Ensures that every student phone number contains exactly 10 digits, preventing u
    Phone_Number_10_Digits_Validation
 
    ## Validation Formula:
+ 
+   NOT( REGEX( Phone_Number__c , "^[0-9]{10}$") )
 
-   LEN(Phone__c) <> 10
-
-  Note: If your Phone field allows special characters such as spaces, hyphens, or brackets, you may need a more advanced formula. The above formula works well when users enter only numeric digits.
+  Note: If your Phone field allows special characters such as spaces, hyphens, or brackets, you may need a more advanced formula. The above formula works well    when users enter only numeric digits.
 
    ## Error Message:
 
@@ -114,7 +114,7 @@ Ensures that the Batch End Date is always later than the Batch Start Date, preve
 
   ## Validation Formula:
 
-  End_Date__c <= Start_Date__c
+  Start_Date__c >= End_Date__c
 
   ## Error Message:
 
@@ -146,8 +146,11 @@ Ensures that the Course Duration is greater than zero, preventing users from cre
 
   ## Validation Formula:
 
-  Course_Duration__c <= 0
-
+  OR(
+   ISPICKVAL( Course_Duration__c , "0 months"),
+   ISPICKVAL( Course_Duration__c , "None")
+  )
+  
   ## Error Message:
 
   Course Duration must be greater than zero.
@@ -176,12 +179,9 @@ Ensures that the Course Fee falls within the organization's allowed fee range, p
 
   Course_Fee_Limit_Check
 
-  ## Example Validation Formula (adjust the limit to match your project)
-
-  OR(
-    Course_Fee__c <= 0,
-    Course_Fee__c > 100000
-  )
+  ## Validation Formula
+  
+  Course_Fee__c > 100000
 
   ## Error Message:
 
