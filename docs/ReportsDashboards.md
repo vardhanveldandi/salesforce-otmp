@@ -1,20 +1,20 @@
-## Reports
+# Reports
 
-# Overview
+## Overview
 
 The Online Training Management Platform (OTMP) uses Salesforce Reports to monitor students, enrollments, payments, trainers, and overall business performance.
 
-## OTMP Enrollment Report
+# OTMP Enrollment Report
 
-# Purpose
+## Purpose
 
 Provides an overview of student enrollments, course registrations, and payment status.
 
-# Information Included
+## Information Included
 
 Student Name, Course Name, Enrollment Status, Payment Status, Enrollment Date and Record Count.
 
-# Business Benefits
+## Business Benefits
 
 - Tracks student enrollments.
 - Monitors enrollment and payment status.
@@ -22,17 +22,17 @@ Student Name, Course Name, Enrollment Status, Payment Status, Enrollment Date an
 - Supports quick reporting and decision-making.
 - Improves enrollment management.
 
-## Payment Revenue Report
+# Payment Revenue Report
 
-# Purpose
+## Purpose
 
 Provides an overview of student payments, revenue, and pending balances.
 
-# Information Included
+## Information Included
 
  Student Name, Payment Status, Payment Amount, Pending Amount, Payment Date, Course Name, Batch ID and Total Revenue.
  
-# Business Benefits
+## Business Benefits
 
 - Tracks student payments.
 - Monitors revenue and pending balances.
@@ -40,21 +40,21 @@ Provides an overview of student payments, revenue, and pending balances.
 - Helps identify pending payments.
 - Improves payment management.
 
-## OTMP AI Analytics Report
+# OTMP AI Analytics Report
 
 This report includes Most Asked Queries Report, Agent Usage Report , Average Satisfaction Score Report, Average Response Time Report and AI Interaction Status Report(Success Vs Failed Vs Pending).
 
-# 1. Most Asked Queries Report
+## 1. Most Asked Queries Report
 
-# Purpose
+## Purpose
 
 Provides an overview of the most frequently asked student queries handled by the AI Support Agent.
 
-# Information Included
+## Information Included
 
 Query Type, AI Interaction Name , Number of Queries and  Record Count
 
-# Business Benefits
+## Business Benefits
 
 - Identifies common student queries.
 - Helps improve AI responses.
@@ -62,17 +62,17 @@ Query Type, AI Interaction Name , Number of Queries and  Record Count
 - Provides insights into query trends.
 - Improves overall service efficiency.
 
-# 2. Agent Usage Report
+## 2. Agent Usage Report
 
-# Purpose
+## Purpose
 
 Provides an overview of AI agent usage and the types of queries handled.
 
-# Information Included
+## Information Included
 
 Agent Name , Query Type , AI Interaction Name, Number of Interactions and Record Count
 
-# Business Benefits
+## Business Benefits
 
 - Tracks AI agent usage.
 - Monitors query distribution.
@@ -80,17 +80,17 @@ Agent Name , Query Type , AI Interaction Name, Number of Interactions and Record
 - Supports AI performance analysis.
 - Improves support efficiency.
 
-# 3. Average Satisfaction Score Report
+## 3. Average Satisfaction Score Report
 
-# Purpose
+## Purpose
 
 Provides an overview of student satisfaction with AI interactions and support services.
 
-# Information Included
+## Information Included
 
 AI Interaction Name, Satisfaction Score, Average Satisfaction Score and Total Records.
 
-# Business Benefits
+## Business Benefits
 
 - Measures student satisfaction.
 - Monitors AI support quality.
@@ -98,17 +98,17 @@ AI Interaction Name, Satisfaction Score, Average Satisfaction Score and Total Re
 - Supports service quality analysis.
 - Enhances the overall student experience.
 
-# 4. Average Response Time Report
+## 4. Average Response Time Report
 
-# Purpose
+## Purpose
 
 Provides an overview of the average response time of AI interactions.
 
-# Information Included
+## Information Included
 
 AI Interaction Name, Response Time, Average Response Time and Total Records.
 
-# Business Benefits
+## Business Benefits
 
 - Monitors AI response speed.
 - Measures support efficiency.
@@ -116,17 +116,17 @@ AI Interaction Name, Response Time, Average Response Time and Total Records.
 - Supports performance improvement.
 - Enhances the student support experience.
 
-# 5. AI Interaction Status Report(Success Vs Failed Vs Pending)
+## 5. AI Interaction Status Report(Success Vs Failed Vs Pending)
 
-# Purpose
+## Purpose
 
 Track the status of AI interactions and monitor whether requests are successful, pending, or failed.
 
-# Information Included
+## Information Included
 
 AI Interaction Name, Interaction Status (Success, Pending, Failed), Total AI Interactions and Record Count by Status.
 
-# Business Benefit
+## Business Benefit
 
 - Monitors AI interaction performance.
 - Identifies failed interactions for troubleshooting.
