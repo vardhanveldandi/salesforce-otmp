@@ -4,70 +4,132 @@
 
 The Online Training Management Platform (OTMP) uses Salesforce Reports to monitor students, enrollments, payments, trainers, and overall business performance.
 
-
 ## OTMP Enrollment Report
 
-### Purpose
+# Purpose
 
-OTMP Enrollment Report provides a centralized view of all student enrollments, enabling administrators to monitor course registrations, enrollment status, payment status, and enrollment history for effective training management.
+Provides an overview of student enrollments, course registrations, and payment status.
 
-### Information Included
+# Information Included
 
-- Student Name
-- Course Name
-- Enrollment ID
-- Enrollment Status (Enrolled, Completed, Dropped)
-- Payment Status (Completed, Pending)
-- Enrollment Date
-- Batch Details (if included in the report type)
-- Record Count
-- Report Subtotals and Grand Total
+Student Name, Course Name, Enrollment Status, Payment Status, Enrollment Date and Record Count.
 
-### Business Benefit
+# Business Benefits
 
-- Monitors student enrollment across all training programs.
-- Tracks enrollment status throughout the student lifecycle.
-- Verifies payment status associated with each enrollment.
-- Provides quick visibility into course registrations and enrollment trends.
-- Supports enrollment tracking and operational decision-making.
-- Improves reporting accuracy by consolidating student, course, and enrollment information.
-- Helps administrators identify active, completed, and dropped enrollments.
-- Enhances training management through centralized enrollment reporting.
-
+- Tracks student enrollments.
+- Monitors enrollment and payment status.
+- Helps manage course registrations.
+- Supports quick reporting and decision-making.
+- Improves enrollment management.
 
 ## Payment Revenue Report
 
-### Purpose
+# Purpose
 
-The Payment Revenue Report provides a consolidated view of all student payment transactions, helping administrators monitor revenue generation, payment status, pending balances, and overall financial performance of the Online Training Management Platform (OTMP).
+Provides an overview of student payments, revenue, and pending balances.
 
+# Information Included
 
-### Information Included
+ Student Name, Payment Status, Payment Amount, Pending Amount, Payment Date, Course Name, Batch ID and Total Revenue.
+ 
+# Business Benefits
 
-- Payment Status (Completed, Pending)
-- Payment Date
-- Payment ID
-- Student Name
-- Batch ID
-- Enrollment Details
-- Payment Name (Course)
-- Payment Amount
-- Pending Amount
-- Monthly Revenue Summary
-- Batch-wise Revenue Summary
-- Grand Total Revenue
-- Total Pending Amount
+- Tracks student payments.
+- Monitors revenue and pending balances.
+- Supports financial reporting.
+- Helps identify pending payments.
+- Improves payment management.
 
-### Business Benefit
+## OTMP AI Analytics Report
 
-- Monitors total revenue generated from student payments.
-- Tracks completed and pending payments in one place.
-- Identifies students with outstanding payment balances.
-- Analyzes revenue by month and batch for better financial insights.
-- Supports financial reporting and decision-making.
-- Improves payment tracking and follow-up processes.
-- Ensures accurate revenue monitoring and financial transparency.
-- Helps management evaluate the organization's overall financial performance.
+This report includes Most Asked Queries Report, Agent Usage Report , Average Satisfaction Score Report, Average Response Time Report and AI Interaction Status Report(Success Vs Failed Vs Pending).
 
+# 1. Most Asked Queries Report
 
+# Purpose
 
+Provides an overview of the most frequently asked student queries handled by the AI Support Agent.
+
+# Information Included
+
+Query Type, AI Interaction Name , Number of Queries and  Record Count
+
+# Business Benefits
+
+- Identifies common student queries.
+- Helps improve AI responses.
+- Supports better student support.
+- Provides insights into query trends.
+- Improves overall service efficiency.
+
+# 2. Agent Usage Report
+
+# Purpose
+
+Provides an overview of AI agent usage and the types of queries handled.
+
+# Information Included
+
+Agent Name , Query Type , AI Interaction Name, Number of Interactions and Record Count
+
+# Business Benefits
+
+- Tracks AI agent usage.
+- Monitors query distribution.
+- Measures agent performance.
+- Supports AI performance analysis.
+- Improves support efficiency.
+
+# 3. Average Satisfaction Score Report
+
+# Purpose
+
+Provides an overview of student satisfaction with AI interactions and support services.
+
+# Information Included
+
+AI Interaction Name, Satisfaction Score, Average Satisfaction Score and Total Records.
+
+# Business Benefits
+
+- Measures student satisfaction.
+- Monitors AI support quality.
+- Identifies areas for improvement.
+- Supports service quality analysis.
+- Enhances the overall student experience.
+
+# 4. Average Response Time Report
+
+# Purpose
+
+Provides an overview of the average response time of AI interactions.
+
+# Information Included
+
+AI Interaction Name, Response Time, Average Response Time and Total Records.
+
+# Business Benefits
+
+- Monitors AI response speed.
+- Measures support efficiency.
+- Identifies response delays.
+- Supports performance improvement.
+- Enhances the student support experience.
+
+# 5. AI Interaction Status Report(Success Vs Failed Vs Pending)
+
+# Purpose
+
+Track the status of AI interactions and monitor whether requests are successful, pending, or failed.
+
+# Information Included
+
+AI Interaction Name, Interaction Status (Success, Pending, Failed), Total AI Interactions and Record Count by Status.
+
+# Business Benefit
+
+- Monitors AI interaction performance.
+- Identifies failed interactions for troubleshooting.
+- Tracks pending requests requiring attention.
+- Measures overall AI service success rate.
+- Helps improve AI reliability and user experience.
