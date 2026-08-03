@@ -1,6 +1,6 @@
 # Reports
 
-## Overview
+# Overview
 
 The Online Training Management Platform (OTMP) uses Salesforce Reports to monitor students, enrollments, payments, trainers, and overall business performance.
 
