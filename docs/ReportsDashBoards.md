@@ -142,17 +142,17 @@ The OTMP project includes interactive Salesforce dashboards that provide real-ti
 
 # DashBoard Summary
 
-- # OTMP Payment Revenue Dashboard
+-  OTMP Payment Revenue Dashboard
   Summary: Provides a complete view of payment collections, revenue trends, pending payments, and batch-wise revenue to monitor the organization's financial 
            Performance.
   
-- # OTMP Enrollment Dashboard
+-  OTMP Enrollment Dashboard
   Summary: Provides insights into student enrollments, course popularity, enrollment status, and learning trends to effectively monitor training operations.
   
-- # OTMP AI Analytics Dashboard
+-  OTMP AI Analytics Dashboard
   Summary: Monitors Agentforce AI performance by tracking student queries, agent usage, response time, interaction success rate, and student satisfaction.
 
-- # Executive OTMP Dashboard
+-  Executive OTMP Dashboard
   Summary: Provides a unified view of OTMP business performance by combining enrollment, revenue, payment, course, and AI analytics into a single executive
            dashboard for informed decision-making.
            
