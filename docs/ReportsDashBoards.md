@@ -140,7 +140,7 @@ AI Interaction Name, Interaction Status (Success, Pending, Failed), Total AI Int
 
 The OTMP project includes interactive Salesforce dashboards that provide real-time insights into payments, enrollments, trainer performance, and AI interactions. These dashboards help administrators monitor business performance and make informed decisions.
 
-# DASHBOARD SUMMARY
+# DashBoard Summary
 
 - OTMP Payment Revenue Dashboard
   Summary: Provides a complete view of payment collections, revenue trends, pending payments, and batch-wise revenue to monitor the organization's financial 
