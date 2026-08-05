@@ -4,15 +4,15 @@
 
 The Online Training Management Platform (OTMP) uses Salesforce Agentforce AI to automatically assist students by answering questions, retrieving Salesforce data, and providing personalized responses.
 
-# Agent Name
+## Agent Name
 
-# OTMP Student Support Agent
+## OTMP Student Support Agent
 
-## Purpose
+### Purpose
 
 The OTMP Student Support Agent is an AI-powered virtual assistant that helps students by answering enrollment, batch, payment, and trainer-related queries. It automatically identifies the student's intent and executes the appropriate action to retrieve accurate information from Salesforce.
 
-## Features
+### Features
 
 - Handles student support requests automatically
 - Identifies user intent
@@ -21,23 +21,23 @@ The OTMP Student Support Agent is an AI-powered virtual assistant that helps stu
 - Supports multiple specialized subagents
 - Logs AI interactions for analytics and reporting
 
-# Subagents
+## Subagents
 
-# 1. Enrollment Support
+## 1. Enrollment Support
 
-## Purpose
+### Purpose
 
 Handles student enrollment-related queries.
 
-## Prompt Template
+### Prompt Template
 
 Enrollment Support Template
 
-## Flow Action
+### Flow Action
 
 Get Enrollment Details Flow
 
-## Capabilities
+### Capabilities
 
 - Retrieves course details
 - Retrieves batch information
@@ -50,21 +50,21 @@ Get Enrollment Details Flow
 - Shows student satisfaction score
 - Displays payment due date
 
-# 2. Payment Type Support Subagent
+## 2. Payment Type Support Subagent
 
-## Purpose
+### Purpose
 
 Handles student payment-related queries.
 
-## Prompt Template
+### Prompt Template
 
 Payment Support Template
 
-## Flow Action
+### Flow Action
 
 Get Payment Status Flow
 
-## Capabilities
+### Capabilities
 
 - Retrieves payment amount
 - Displays pending payment amount
@@ -72,21 +72,21 @@ Get Payment Status Flow
 - Displays payment due date
 - Confirms completed or pending payments
 
-# 3. Trainer Support Subagent
+## 3. Trainer Support Subagent
 
-## Purpose
+### Purpose
 
 Provides students with trainer-related information.
 
-## Prompt Template
+### Prompt Template
 
 Trainer Support Template
 
-## Flow Action
+### Flow Action
 
 Get Trainer Details Flow
 
-## Capabilities
+### Capabilities
 
 - Retrieves trainer name
 - Displays trainer experience
@@ -94,21 +94,21 @@ Get Trainer Details Flow
 - Retrieves trainer contact information
 - Provides trainer details for the assigned batch
 
-# 4. Batch Schedule Support Subagent
+## 4. Batch Schedule Support Subagent
 
-## Purpose
+### Purpose
 
 Provides students with batch schedule and timing information.
 
-## Prompt Template
+### Prompt Template
 
 Batch Support Template
 
-## Flow Action
+### Flow Action
 
 Get Batch Details Flow
 
-## Capabilities
+### Capabilities
 
 - Retrieves batch name
 - Displays batch time slot
@@ -116,7 +116,7 @@ Get Batch Details Flow
 - Retrieves batch status
 - Provides batch schedule details
 
-# AI Flow
+## AI Flow
 
 Student asks a question 
         │
@@ -144,7 +144,7 @@ Agent returns a natural language response
         ▼
 AI Interaction record is created for analytics
 
-# AI Components
+## AI Components
 
   Component	                                                                         Description
   ---------------------------------------------------------------------------------------------------------------------------
@@ -154,7 +154,7 @@ AI Interaction record is created for analytics
   Salesforce Flows	                                                            4
   AI Interaction Object	                                                      Stores AI conversations
   
-# Business Benefits
+## Business Benefits
 
 - Provides instant AI-powered student support.
 - Reduces manual work for administrators.
