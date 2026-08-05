@@ -146,7 +146,8 @@ AI Interaction record is created for analytics
 
 ## AI Components
 
-| Component | Description|
+| Component | Description |
+|--------|----------------|
 |AI Agent |	OTMP Student Support Agent|
 |Subagents	|Enrollment, Batch Schedule, Payment, Trainer|
 |Prompt Templates|	4|
