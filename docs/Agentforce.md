@@ -144,13 +144,14 @@ Agent returns a natural language response
         ▼
 AI Interaction record is created for analytics
 
-# AI Components
-Component	Description
-AI Agent	OTMP Student Support Agent
-Subagents	Enrollment, Batch Schedule, Payment, Trainer
-Prompt Templates	4
-Salesforce Flows	4
-AI Interaction Object	Stores AI conversations
+## AI Components
+
+| Component | Description|
+|AI Agent |	OTMP Student Support Agent|
+|Subagents	|Enrollment, Batch Schedule, Payment, Trainer|
+|Prompt Templates|	4|
+|Salesforce Flows|	4|
+|AI Interaction Object|	Stores AI conversations|
   
 ## Business Benefits
 
