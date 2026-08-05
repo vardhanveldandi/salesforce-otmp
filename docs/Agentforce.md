@@ -4,8 +4,6 @@
 
 The Online Training Management Platform (OTMP) uses Salesforce Agentforce AI to automatically assist students by answering questions, retrieving Salesforce data, and providing personalized responses.
 
-# AI Agent
-
 # Agent Name
 
 # OTMP Student Support Agent
@@ -35,7 +33,7 @@ Handles student enrollment-related queries.
 
 Enrollment Support Template
 
-# Flow Action
+## Flow Action
 
 Get Enrollment Details Flow
 
@@ -120,7 +118,7 @@ Get Batch Details Flow
 
 # AI Flow
 
-Student asks a question
+Student asks a question 
         │
         ▼
 OTMP Student Support Agent receives the request
