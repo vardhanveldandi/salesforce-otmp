@@ -146,18 +146,13 @@ AI Interaction record is created for analytics
 
 ## AI Components
 
-  Component	                                                                         Description
-  ---------------------------------------------------------------------------------------------------------------------------
-  AI Agent	                                                                  OTMP Student Support Agent
-  ______________________________________________________________________________________________________________________________
-  Subagents                                                                 	Enrollment, Batch Schedule, Payment, Trainer
-  ______________________________________________________________________________________________________________________________
-  
-  Prompt Templates	                                                            4
-  ______________________________________________________________________________________________________________________________
-  Salesforce Flows	                                                            4
-   ______________________________________________________________________________________________________________________________
-   AI Interaction Object	                                                      Stores AI conversations
+  Component	                                            -                          Description
+  -------------------------------------------------------------------------------------------------------------------------------
+  AI Agent	                                          -                        OTMP Student Support Agent
+  Subagents                                                -                 	  Enrollment, Batch Schedule, Payment, Trainer
+  Prompt Templates	                                   -                         4
+  Salesforce Flows	                                   -                         4
+  AI Interaction Object	                                   -                       Stores AI conversations
   
 ## Business Benefits
 
