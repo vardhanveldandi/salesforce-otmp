@@ -44,7 +44,6 @@ The objective is to place Cases into the correct support queue and, in a fully s
 # 3. Salesforce Components
 | Component | Purpose | Status|
 |--------|----------------|----------|
-
 |Case | Stores student support requests|Configured|
 |Case Record Types|Classifies support issues|Configured|
 |Case Assignment Rule|Assigns Cases to queues|Configured|
