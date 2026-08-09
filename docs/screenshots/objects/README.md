@@ -2,7 +2,8 @@
 
 This folder contains screenshots of Salesforce custom objects used in the OTMP project.
 
-## Objects
+## Objects and fields and relationships
+
 - Student
 - Course
 - Trainer
