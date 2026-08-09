@@ -123,22 +123,37 @@ configured:
 The following Case-routing portion was successfully tested:
 
 Case Created
-     ↓
+
+↓
+
 Case Assignment Rule
-     ↓
+
+↓
+
 Support Queue
-     ↓
+
+↓
+
 Case Ownership
 
 ## During end-to-end testing:
+
 Case Created
-    ↓
+
+↓
+
 Queue Assignment
-    ↓
+
+↓
+
 Omni-Channel Configuration
-    ↓
+
+↓
+
 Expected AgentWork
-    ↓
+
+↓
+
 Not Generated as Expected
 
 Therefore, the complete AgentWork → Support Agent stage could not be validated.
