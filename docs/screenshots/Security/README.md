@@ -4,6 +4,7 @@ This folder contains screenshots of the **Salesforce security and access-control
 
 ## Security Components
 
+* **Profiles** - Define base user access and Salesforce permissions.
 * **Validation Rules** – Enforce data quality and business rules.
 * **Permission Sets** – Control user permissions and access.
 * **Sharing Settings** – Manage record-level access and data visibility.
