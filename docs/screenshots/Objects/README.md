@@ -12,8 +12,7 @@ The main OTMP objects include:
 - Batch
 - Enrollment
 - Payment
-- Session
-- Case
+- Meeting
 
 ## Fields
 
