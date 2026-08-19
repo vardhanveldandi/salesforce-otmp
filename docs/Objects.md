@@ -58,7 +58,33 @@ Stores training course details.
 
 - One Course can have multiple Batches.
 
+# Trainer Object
 
+## Purpose
+
+Stores trainer information, professional details, contact information, employment details, and payment information for trainers in the OTMP platform.
+
+## Fields
+
+| **Field Name**       | **Data Type**       | **Description**                                           |
+| -------------------- | ------------------- | --------------------------------------------------------- |
+| Trainer Name         | Text(80)            | Name of the trainer                                       |
+| Trainer Email        | Email               | Email address of the trainer                              |
+| Trainer Phone Number | Phone               | Contact number of the trainer                             |
+| Employee ID          | Text(20)            | Unique employee identification number                     |
+| Department           | Picklist            | Department associated with the trainer                    |
+| Experience           | Picklist            | Trainer experience level                                  |
+| Expertise            | Text(200)           | Trainer expertise or specialization                       |
+| Payment Rate         | Number(18,0)        | Payment rate for the trainer                              |
+| Vendor Name          | Text(50)            | Name of the associated vendor                             |
+
+
+## Relationships
+
+* Trainer can be assigned to multiple **Batches**.
+* Trainer can be linked to multiple **Meetings**.
+* **Batch** is linked to Trainer.
+* **Meeting** is linked to Trainer.
 
 # Batch Object
 
