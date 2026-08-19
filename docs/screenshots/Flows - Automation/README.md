@@ -12,6 +12,6 @@ The following flows are implemented in the OTMP project:
 4. Get Batch Details
 5. Get Enrollment Details
 6. Get Payment Status
-7. Get Trainer Details
+7. Get Trainer Details 
 
 
