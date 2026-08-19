@@ -9,5 +9,5 @@ This folder contains screenshots of the **Salesforce security and access-control
 * **Permission Sets** – Control user permissions and access.
 * **Sharing Settings** – Manage record-level access and data visibility.
 * **Record Types** – Support different business processes and user experiences.
-
+ 
 
