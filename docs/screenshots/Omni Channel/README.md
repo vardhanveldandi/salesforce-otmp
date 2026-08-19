@@ -16,6 +16,6 @@ The screenshots demonstrate:
 - Presence configuration
 - Presence Statuses
 - Case Record Types
-- Queue assignment result
+- Queue assignment result 
 - Omni-Channel testing result
   
