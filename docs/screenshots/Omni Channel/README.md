@@ -18,4 +18,4 @@ The screenshots demonstrate:
 - Case Record Types
 - Queue assignment result
 - Omni-Channel testing result
-
+ 
