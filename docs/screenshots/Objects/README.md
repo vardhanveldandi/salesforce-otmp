@@ -23,4 +23,4 @@ Screenshots show the important fields configured for each object, including:
 - Date fields
 - Picklists
 - Lookup/Master-Detail relationships
-- Status and business-related fields
+- Status and business-related fields 
