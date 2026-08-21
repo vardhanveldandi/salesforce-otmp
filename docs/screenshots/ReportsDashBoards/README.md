@@ -26,5 +26,5 @@ This folder contains screenshots of the dashboards created for the Online Traini
 
 * **OTMP Payment Revenue Dashboard** - Tracks payment and revenue metrics                
 * **OTMP Enrollment Dashboard**      - Monitors student enrollment and batch performance 
-* **OTMP AI Analytics Dashboard**    - Shows Agentforce and AI interaction metrics       
+* **OTMP AI Analytics Dashboard**    - Shows Agentforce and AI interaction metrics        
 * **Executive OTMP Dashboard**       - Provides an overall business performance view     
