@@ -2,8 +2,8 @@ This folder contains the architecture and design diagrams for the Online Trainin
 
 ## Planned Diagrams
 
-- Architecture Diagram
+- System Architecture Diagram
 - ER Diagram
-- Data Model Diagram
-- Flow Diagram
+- Flow Diagrams
+- OmniChannel Routing Diagram
 - Security Model Diagram
