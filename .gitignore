@@ -1,0 +1,30 @@
+# Salesforce
+.sfdx/
+.sf/
+.forceignore
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment / secrets
+.env
+.env.*
+*.secret
+
+# Salesforce authentication
+.sfdx/
