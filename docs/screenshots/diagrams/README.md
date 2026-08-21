@@ -6,4 +6,4 @@ This folder contains the architecture and design diagrams for the Online Trainin
 - ER Diagram
 - Flow Diagrams
 - OmniChannel Routing Diagram
-- Security Model Diagram
+- Security Model Diagram 
