@@ -1,1 +1,1 @@
-This folder contains screenshots of the OTMP Salesforce application.
+This folder contains screenshots of the OTMP Salesforce application. 
